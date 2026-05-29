@@ -1,0 +1,3 @@
+/* Web-only overrides layer. The full Nexel design system is imported from
+   @nexel/ui/styles/globals.css in layout.jsx. Intentionally empty — the
+   landing page must remain visually identical to the live site. */

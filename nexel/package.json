@@ -1,0 +1,16 @@
+{
+  "name": "nexel-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:analyzer": "npm run dev --workspace=apps/analyzer",
+    "build:web": "npm run build --workspace=apps/web",
+    "build:analyzer": "npm run build --workspace=apps/analyzer",
+    "lint": "npm run lint --workspaces --if-present"
+  }
+}

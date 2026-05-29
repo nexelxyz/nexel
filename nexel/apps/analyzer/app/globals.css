@@ -1,0 +1,3 @@
+/* Analyzer-only overrides layer. The full Nexel design system is imported
+   from @nexel/ui/styles/globals.css in layout.jsx. Intentionally empty so the
+   analyzer is visually identical to the landing page. */
