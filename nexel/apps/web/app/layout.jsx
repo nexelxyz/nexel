@@ -29,7 +29,7 @@ export const metadata = {
     title: "NEXEL · The identity layer for autonomous agents on Base",
     description: DESCRIPTION,
     siteName: "Nexel",
-    images: [{ url: "https://trynexel.xyz/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "https://trynexel.xyz/og-image.png", width: 1200, height: 670 }],
   },
   twitter: {
     card: "summary_large_image",
